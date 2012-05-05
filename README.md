@@ -1,24 +1,28 @@
 # ReadBetter
 
-TODO: Write a gem description
+This tool helps you read better content by doing two things:
+
+* It makes you more aware of how many times you visit the online news sites and social networks that pervade our lives with interesting but relatively shallow content
+* It shows you the books and papers you’ve been trying read but perhaps don’t seem to be able to as much as you’d like
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'read_better'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+It’s pretty straightforward:
 
     $ gem install read_better
 
+## Configuration
+
+Edit your /etc/hosts file to have entries for your news sites and social networks and point them to read.better, the local application.
+
+Here’s an example:
+
+    reddit.com    read.better
+
 ## Usage
 
-TODO: Write usage instructions here
+Visit your favourite news sites. Add books you’re reading.
+Become aware of where your time is going and what you’re not doing.
 
 ## Contributing
 
